@@ -1,0 +1,86 @@
+.Montserrat {
+  font-family: "Montserrat", sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    
+}
+
+img{
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+ .middle{
+    margin: 110px 550px;
+    height: 600px;
+    width: 790px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    background-color: aliceblue;
+ }
+
+ .rightside{
+ padding-left: 40px;
+ width: 300px;
+}
+
+.price{
+    display: flex;
+    
+}
+.sale {
+    color:  hsl(158, 36%, 37%);
+    font-size: xx-large;
+    font-family: "Fraunces", serif;
+}
+
+.bsale{
+    color: gray;
+    font-size: x-large;
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Fraunces", serif;
+
+
+}
+.buy button{
+    background-color:  hsl(158, 36%, 37%) ;
+    color: white ;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 10px;
+    font-family: "Fraunces", serif;
+
+    
+}
+
+.buy button:hover{
+    background-color:   hsl(159, 35%, 16%);
+}
+
+body{
+    background-color: rgb(247, 235, 235);
+}
+
+.attribution {
+    text-align: center;
+    
+  }
+  
+  
